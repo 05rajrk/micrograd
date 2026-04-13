@@ -1,7 +1,10 @@
 [project]
-name = "karpllm"
+name = "micrograd"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "graphviz>=0.21",
+    "ipykernel>=7.2.0",
+]
